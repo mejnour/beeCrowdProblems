@@ -1,0 +1,38 @@
+{
+  // Repositório de estudo: sem "ghost text" / sugestões inline.
+  // O objetivo é escrever a solução do zero, não aceitar a resposta pronta.
+
+  // Interruptor geral: desliga inline suggestions de QUALQUER extensão
+  // (Copilot, Continue, Codeium, Tabnine, Supermaven, Amazon Q, Cody...).
+  "editor.inlineSuggest.enabled": false,
+
+  // Impede que o popup normal de autocomplete "puxe" a sugestão inline.
+  "editor.inlineSuggest.suppressSuggestions": true,
+
+  // Sem realce de sintaxe no texto fantasma.
+  "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+
+  // --- GitHub Copilot (caso esteja instalado) ---
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+
+  // --- Opcional: sem auto-complete nenhum ---
+  // Descomente se quiser o IntelliSense completamente mudo também.
+  // Ctrl+Space continua funcionando pra pedir ajuda na hora que você quiser.
+  //
+  // "editor.quickSuggestions": {
+  //   "other": false,
+  //   "comments": false,
+  //   "strings": false
+  // },
+  // "editor.suggestOnTriggerCharacters": false,
+  // "editor.acceptSuggestionOnEnter": "off",
+  // "editor.parameterHints.enabled": false,
+  // "editor.wordBasedSuggestions": "off",
+
+  // --- Opcional: cortar toda a camada de IA do VS Code (1.100+) ---
+  // "chat.disableAIFeatures": true
+}

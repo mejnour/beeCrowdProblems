@@ -33,3 +33,4 @@ go.work.sum
 
 # outros
 /rust_problems
+.DS_Store
